@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>404 ERROR</h1>
+    <script>
+    setInterval(() => {
+        document.body.style.backgroundImage = 'none';
+        for(let i = 0; i<=24 ; i++){
+            if(i<24){
+                setTimeout(() => {document.body.style.cssText=`background:#${Math.random().toString(16).slice(2,8)};transform:rotate{$Math.random()*360}deg);`}, i* 40);
+            }else{
+                setTimeout(() => {document.body.style.backgroundImage = 'url("IMG_2198.png")';}, 25*40); 
+            }
+        }
+    },1000)
+</script>
+</body>
+</html>

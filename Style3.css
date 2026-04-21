@@ -1,0 +1,39 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header{
+    margin-bottom: 100px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 77.5vh;
+}
+.podval{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    color: azure;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.form{
+    text-align: center;
+    width: 300px;
+    height: 175px;
+    background-color: #f7f7f7;
+    margin: auto;
+    padding: auto;
+    border: 3px solid black;
+}
